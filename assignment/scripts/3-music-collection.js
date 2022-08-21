@@ -22,7 +22,18 @@ console.log('new album', albumFour);
 const albumFive = addToCollection(' Some Brave All', 'Billy Ray Cyrus', 1992);
 console.log('new album', albumFive);
 
-const albumSix = addToCollection('Jagged Little Pill', 'Alinis Morissette', 1996);
+const albumSix = addToCollection('Jagged Little Pill', 'Alanis Morissette', 1996);
 console.log('new album', albumSix)
 
 console.log( [collection] )
+
+function showCollection (array){
+    for (let index = 0; index < array.length; index++){
+        const title = array [index];
+        const artist = array [index];
+        const yearPublished = array [index];
+    }
+}
+console.log(
+
+
