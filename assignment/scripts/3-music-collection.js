@@ -34,6 +34,13 @@ function showCollection (array){
         const yearPublished = array [index];
     }
 }
-console.log(
+console.log(albumOne);
+console.log(albumTwo);
+console.log(albumThree);
+console.log(albumFour);
+console.log(albumFive);
+console.log(albumSix);
+
+
 
 
