@@ -1,10 +1,9 @@
 
 const collection=[];
 
-function addToCollection (title, artist, yearPublished){
-
-let records = (addToCollection);
-
-collection.push(records);
+function addToCollection (title, artist, yearPublished) {
+    const obj = {addToCollection};
+    obj.push;
+    return obj;
 }
-console.log('***** Music Collection *****');
+console.log('ok')
