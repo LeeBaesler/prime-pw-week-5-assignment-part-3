@@ -32,14 +32,10 @@ function showCollection (array){
         const title = array [index];
         const artist = array [index];
         const yearPublished = array [index];
+    console.log( title, artist, yearPublished);
     }
 }
-console.log(albumOne);
-console.log(albumTwo);
-console.log(albumThree);
-console.log(albumFour);
-console.log(albumFive);
-console.log(albumSix);
+showCollection(collection);
 
 
 
