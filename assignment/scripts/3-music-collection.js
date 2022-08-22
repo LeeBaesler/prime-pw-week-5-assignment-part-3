@@ -37,6 +37,17 @@ function showCollection (array){
 }
 showCollection(collection);
 
+function findByArtist (string){
+    let results = [];
+    for (let index = 0; index < string.length; index++){
+        const title = string [index];
+        const artist = string [index];
+        const yearPublished = string [index];
+        return results
+    }
+}
+console.log(findByArtist['offspring']);
+
 
 
 
